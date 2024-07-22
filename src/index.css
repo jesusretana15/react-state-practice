@@ -1,9 +1,13 @@
 * {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.581);
 }
 
 body {
-  
+  background-color: #213547;
   margin: 0;
 }
 
@@ -36,4 +40,42 @@ body {
 /* Desktops (1025px and above) */
 @media (min-width: 1025px) {
   
+}
+
+.mainContent{
+  display: contents;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.box {
+  height: 6.25rem;
+  width: 6.25rem;
+  border: 1px solid black;
+  display: inline-block;
+  margin-right: 4px;
+  border-radius: 5px;
+}
+
+.boxesContainer{
+  /* width: 40%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;  */
+  display: flex;
+  width: 90%;
+  height: 70vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boxesbig{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
