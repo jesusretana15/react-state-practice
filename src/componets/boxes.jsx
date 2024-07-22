@@ -10,15 +10,7 @@ function Boxes(props){
             return prevBoxes.map((square) => {
                 return square.id === id ? {...square, on: !square.on} : square
             })
-        })
-
-        // setBoxes(prevSquares => {
-        //     return prevSquares.map((square) => {
-        //         return square.id === id ? {...square, on: !square.on} : square
-        //     })
-        // })
-
-       
+        }) 
     }
 
     
